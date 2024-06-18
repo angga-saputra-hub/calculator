@@ -1,0 +1,40 @@
+body {
+    background: url("./bg.jpg");
+    background-size: 100%;
+}
+p {
+    text-align: center;
+    color: rgba(240,232,200);
+}
+
+.calculator {
+  width: 250px;
+  margin: 50px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+#display {
+  background-color: rgba(0,64,112);
+  color: rgba(240,232,200);
+  width: 245px;
+  margin-bottom: 10px;
+  padding: 1px;
+  font-size: 18px;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(240,232,200);
+  border-radius: 5px;
+}
